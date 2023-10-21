@@ -19,7 +19,7 @@ void main () {
   print ('SET: ${ reversedNumbers.toSet() }');
 //diferencia entre set y list, el set no da valores duplicados
   
-  final numbersGreaterThan5 =numbers.where((num){
+  final numbersGreaterThan5 =numbers.where(( int num ){
     return num > 5; //true or false
   });
   
